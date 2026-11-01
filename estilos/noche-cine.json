@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Noche de cine",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#05070A",
+  "texto": "#EDEDED",
+  "acento": "#D4A5FF",
+  "secundario": "#3A3F58"
+ },
+ "fuentes": {
+  "titulos": "Playfair Display",
+  "pesoTitulos": 800,
+  "texto": "Inter",
+  "pesoTexto": 600
+ },
+ "radio": 12,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "cinematico"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "minimal",
+  "modo": "frase",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "zoom",
+ "sonido": {
+  "densidad": "minimo"
+ },
+ "sfx": true,
+ "color": "cine",
+ "grano": true,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

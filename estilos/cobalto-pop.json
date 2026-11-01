@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Cobalto pop",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#FFFFFF",
+  "texto": "#0B0B45",
+  "acento": "#2D5BFF",
+  "secundario": "#FF5CA8"
+ },
+ "fuentes": {
+  "titulos": "Space Grotesk",
+  "pesoTitulos": 700,
+  "texto": "Plus Jakarta Sans",
+  "pesoTexto": 700
+ },
+ "radio": 28,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "energico"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "caja",
+  "modo": "palabra",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "zoom",
+ "sonido": {
+  "densidad": "alto"
+ },
+ "sfx": true,
+ "color": "natural",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

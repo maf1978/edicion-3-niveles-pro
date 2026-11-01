@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Rojo y negro",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#0A0A0A",
+  "texto": "#FAFAFA",
+  "acento": "#FF3B30",
+  "secundario": "#FFFFFF"
+ },
+ "fuentes": {
+  "titulos": "Archivo Black",
+  "pesoTitulos": 400,
+  "texto": "Archivo",
+  "pesoTexto": 700
+ },
+ "radio": 6,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "seco"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "bold",
+  "modo": "palabra",
+  "posicion": "abajo",
+  "mayusculas": true,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 2
+ },
+ "transicion": "whip",
+ "sonido": {
+  "densidad": "medio"
+ },
+ "sfx": true,
+ "color": "cine",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

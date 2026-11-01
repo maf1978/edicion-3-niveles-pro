@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Lima eléctrica",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#101010",
+  "texto": "#FFFFFF",
+  "acento": "#C6FF3D",
+  "secundario": "#5B5BFF"
+ },
+ "fuentes": {
+  "titulos": "Bricolage Grotesque",
+  "pesoTitulos": 800,
+  "texto": "DM Sans",
+  "pesoTexto": 700
+ },
+ "radio": 18,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "energico"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "karaoke",
+  "modo": "palabra",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "barrido",
+ "sonido": {
+  "densidad": "medio"
+ },
+ "sfx": true,
+ "color": "natural",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

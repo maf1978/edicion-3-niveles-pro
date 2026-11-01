@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Azul confianza",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#0F1C2E",
+  "texto": "#F5F7FA",
+  "acento": "#3B82F6",
+  "secundario": "#22C55E"
+ },
+ "fuentes": {
+  "titulos": "Sora",
+  "pesoTitulos": 800,
+  "texto": "Inter",
+  "pesoTexto": 700
+ },
+ "radio": 14,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "suave"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "minimal",
+  "modo": "frase",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "barrido",
+ "sonido": {
+  "densidad": "minimo"
+ },
+ "sfx": true,
+ "color": "natural",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Editorial verde",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#F4F1EA",
+  "texto": "#1E2A24",
+  "acento": "#2F7D5B",
+  "secundario": "#E36414"
+ },
+ "fuentes": {
+  "titulos": "DM Serif Display",
+  "pesoTitulos": 400,
+  "texto": "DM Sans",
+  "pesoTexto": 700
+ },
+ "radio": 10,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "cinematico"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "minimal",
+  "modo": "frase",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "iris",
+ "sonido": {
+  "densidad": "minimo"
+ },
+ "sfx": true,
+ "color": "calido",
+ "grano": true,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

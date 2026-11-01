@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Menta suiza",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#F2F5F3",
+  "texto": "#111111",
+  "acento": "#00B386",
+  "secundario": "#111111"
+ },
+ "fuentes": {
+  "titulos": "Inter Tight",
+  "pesoTitulos": 800,
+  "texto": "Inter",
+  "pesoTexto": 600
+ },
+ "radio": 8,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "seco"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "caja",
+  "modo": "palabra",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "whip",
+ "sonido": {
+  "densidad": "minimo"
+ },
+ "sfx": true,
+ "color": "natural",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

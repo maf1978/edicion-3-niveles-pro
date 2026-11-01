@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Coral pastel",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#FFF4EC",
+  "texto": "#2B2B2B",
+  "acento": "#FF6B6B",
+  "secundario": "#4ECDC4"
+ },
+ "fuentes": {
+  "titulos": "Fredoka",
+  "pesoTitulos": 700,
+  "texto": "Nunito",
+  "pesoTexto": 800
+ },
+ "radio": 32,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "energico"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "caja",
+  "modo": "palabra",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "iris",
+ "sonido": {
+  "densidad": "alto"
+ },
+ "sfx": true,
+ "color": "calido",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}

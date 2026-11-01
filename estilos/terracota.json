@@ -1,0 +1,46 @@
+{
+ "version": 2,
+ "nombre": "Terracota",
+ "nombre_marca": "",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#2A1D17",
+  "texto": "#F6EDE3",
+  "acento": "#E07A5F",
+  "secundario": "#81B29A"
+ },
+ "fuentes": {
+  "titulos": "Fraunces",
+  "pesoTitulos": 800,
+  "texto": "Manrope",
+  "pesoTexto": 700
+ },
+ "radio": 20,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "cinematico"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "karaoke",
+  "modo": "palabra",
+  "posicion": "abajo",
+  "mayusculas": false,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 3
+ },
+ "transicion": "iris",
+ "sonido": {
+  "densidad": "medio"
+ },
+ "sfx": true,
+ "color": "calido",
+ "grano": true,
+ "iconos": "emoji",
+ "cierre": "seguir",
+ "mascota": null,
+ "logo": null,
+ "musica": null,
+ "referencias": [],
+ "notas": ""
+}
