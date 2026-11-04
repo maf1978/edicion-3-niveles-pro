@@ -1,0 +1,48 @@
+{
+ "version": 2,
+ "nombre": "Hawk Guru",
+ "nombre_marca": "@ai_hawk_guru",
+ "formato": "9:16",
+ "colores": {
+  "fondo": "#0A1929",
+  "texto": "#F5F5F0",
+  "acento": "#FFB547",
+  "secundario": "#0066FF"
+ },
+ "fuentes": {
+  "titulos": "Inter",
+  "pesoTitulos": 900,
+  "texto": "Inter",
+  "pesoTexto": 600
+ },
+ "radio": 16,
+ "sombras": true,
+ "movimiento": {
+  "perfil": "seco"
+ },
+ "subtitulos": {
+  "activos": true,
+  "preset": "bold",
+  "modo": "palabra",
+  "posicion": "centro",
+  "mayusculas": true,
+  "colorActivo": "acento",
+  "palabrasPorBloque": 2
+ },
+ "transicion": "whip",
+ "sonido": {
+  "densidad": "medio"
+ },
+ "sfx": true,
+ "color": "frio",
+ "grano": false,
+ "iconos": "emoji",
+ "cierre": "comenta",
+ "mascota": null,
+ "logo": "brand/logo.png",
+ "musica": null,
+ "referencias": [
+  "brand/hawk-guru-brain.md"
+ ],
+ "notas": "Fuente: Hawk Guru Brand Brain. Paneles de control nocturno, un concepto por pantalla, cortes cada 1.5-2.5 s, max 7 palabras en pantalla. Rojo (#FF3B30 aprox.) solo para perdida/llamada perdida, verde solo para lead capturado/agendado. Logo solo al final (<=1 s). CTA organico: comentar FUGA (ES) o LEAK (EN); nunca link crudo ni precios. Nunca mencionar GoHighLevel/HighLevel. Solo las estadisticas verificadas del Brand Brain. Espanol neutro, sin voseo, usar 'dinero'."
+}

@@ -36,7 +36,8 @@ if [ -n "$ASSEMBLYAI_API_KEY" ] || [ -s "$HOME/.config/assemblyai/key" ]; then
   say "✅" "AssemblyAI (llave encontrada): transcripción más precisa"
 else
   say "ℹ️ " "Sin llave de AssemblyAI: se usará Whisper local (gratis). Para más precisión: cuenta gratis en assemblyai.com y guarda la llave en ~/.config/assemblyai/key"
-  if python3 -c "import faster_whisper" 2>/dev/null; then say "✅" "Whisper local (faster-whisper)"
+  VENV_PY="$HOME/.config/edicion-3-niveles-pro/venv/bin/python"
+  if python3 -c "import faster_whisper" 2>/dev/null || { [ -x "$VENV_PY" ] && "$VENV_PY" -c "import faster_whisper" 2>/dev/null; }; then say "✅" "Whisper local (faster-whisper)"
   elif $FIX; then echo "  ⏳ instalando faster-whisper…"; python3 -m pip install --quiet faster-whisper && say "✅" "faster-whisper instalado" || need "faster-whisper" "python3 -m pip install faster-whisper"
   else need "Whisper local no instalado" "python3 -m pip install faster-whisper   (o: bash doctor.sh --fix)"; fi
 fi

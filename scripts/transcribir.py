@@ -66,6 +66,10 @@ def con_whisper(audio, idioma, modelo):
     try:
         from faster_whisper import WhisperModel
     except ImportError:
+        venv = Path.home() / ".config/edicion-3-niveles-pro/venv/bin/python"
+        if venv.exists() and Path(sys.executable) != venv and not os.environ.get("EDICION_VENV"):
+            os.environ["EDICION_VENV"] = "1"  # faster-whisper vive en un venv aparte (PyAV no compila en Python muy nuevo)
+            os.execv(str(venv), [str(venv), *sys.argv])
         print("Falta Whisper local. Instálalo con:\n  python3 -m pip install faster-whisper\n"
               "(o corre: bash scripts/doctor.sh --fix)", file=sys.stderr)
         sys.exit(2)
